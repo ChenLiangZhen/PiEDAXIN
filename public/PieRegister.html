@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="google-signin-client_id" content="821998850526-vfh4lmcuf84j762qmih9fm54hgqv1g7t.apps.googleusercontent.com">
+    <script src="https://apis.google.com/js/platform.js" async defer></script>
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="CSS/PieRegister.css">
+    <link rel="stylesheet" href="CSS/normalize.css">
+    <title>PiE Register</title>
+</head>
+<body>
+<div class="Container">
+<button id="POPUP">POP</button>
+
+<div id="BGMODAL">
+    <div class="ModalContent">
+
+        <img id="PRegClosePanel" src="IMG/close.png" alt="">
+        <img class="PieBrandImg" src="IMG/pie1024t.png" alt="">
+        <hr class="HrReg">
+        <div class="PInputBox"><input type="text" id="PRegNameField" placeholder="Account Name" required></div>
+        <div class="PInputBox"> <input type="text" id="PRegEmailField" placeholder="Email Address" required></div>
+        <div class="PInputBox"><input type="password" id="PRegPasswordField" placeholder="Password" required></div>
+        <button id="PRegButton">REGISTER</button>
+        <div id="GoogleOAuthIDBtn" class="g-signin2" data-onsuccess="onSignIn"></div>
+    </div>
+</div>
+
+    <script src="../bundle.js"></script>
+</body>
+</html>

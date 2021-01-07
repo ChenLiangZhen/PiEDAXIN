@@ -1,0 +1,276 @@
+.ByContainer{
+    height: 1630px;
+    border: 1px solid black;
+    margin: auto;
+    max-width: 1300px;
+    background-color: #fff;
+}
+.By{
+    margin-top: 24px;
+    display: flex;
+    justify-content: center;
+}
+.ByBigLeft{
+
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+    margin-right:64px;
+    margin-left:24px;
+    width: 150px;
+    height: 1400px;
+    padding-top: 36px;
+}
+.ByBigRight{
+    display: flex;
+    flex-direction: column;
+    margin-right: 24px;
+    width: 850px;
+    height: 1400px;
+}
+.TEL{
+    text-align: center;
+    font-family: Advent Pro;
+    font-size: 16px;
+    font-weight: bold;
+    letter-spacing: 1px;
+    margin-top: 16px;
+    line-height: 24px;
+}
+.LBigbox{
+    height: 300px;
+    width: 140px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    border: 1px solid black;
+    align-items: center;
+}
+.LTextbox {
+
+    position: absolute;
+    top: 120px;
+    background-color: #fff;
+    font-family: Noto Sans TC;
+    font-weight: bolder;
+    font-size: 30px;
+}
+
+.Link{
+    font-family: Noto Sans TC;
+    font-weight: normal;
+    font-size: 15px;
+    margin: 12px;
+    transition-duration: 200ms;
+}
+.Link:hover{
+    font-size: 18px;
+    color: #CC3F2B;
+    cursor: pointer;
+}
+.Item{
+    margin-bottom: 36px;
+    height: 240px;
+    border: 1px solid black;
+    display: flex;
+    justify-content: space-between;
+}
+.ItemImg{
+    width: 240px;
+    height: 240px;
+    object-fit: cover;
+}
+.ItemRight{
+    padding: 24px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+.RTop{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.ItemTitle{
+    letter-spacing: 2px;
+    font-family: Noto Sans TC;
+    font-weight: bolder;
+    font-size: 24px;
+}
+.ItemTitleRightSec{
+    display: flex;
+}
+#LikeNumberPDX{
+    font-family: Advent Pro;
+    color: #CC3F2B;
+    font-weight: normal;
+    font-size: 22px;
+    margin: 12px;
+}
+#LikeBtnPDX{
+    width: 32px;
+}
+#LikeNumberCBL{
+    font-weight: normal;
+
+    font-family: Advent Pro;
+    color: #CC3F2B;
+    font-size: 22px;
+    margin: 12px;
+}
+#LikeBtnCBL{
+    width: 32px;
+}
+#LikeNumberJTP{
+    font-weight: normal;
+
+    font-family: Advent Pro;
+    color: #CC3F2B;
+    font-size: 22px;
+    margin: 12px;
+}
+#LikeBtnJTP{
+    width: 32px;
+}
+.RMiddle{
+    line-height: 24px;
+    letter-spacing: 2px;
+    width: 85%;
+    margin-top: 8px;
+    margin-bottom: 14px;
+}
+.RLow{
+    margin-bottom: 20px;
+    display: flex;
+    justify-content: flex-end;
+}
+.Indicator{
+    height: 32px;
+    margin-bottom: 12px;
+    font-size: 16px;
+    letter-spacing: 4px;
+    font-size:16px;
+    font-family: Noto Sans TC;
+    font-weight: bold;
+}
+#PricePDX{
+
+    font-family: Advent Pro;
+    color: #CC3F2B;
+    font-weight: bolder;
+    font-size: 26px;
+    margin: 12px;
+}
+#AddPDXBtn{
+    width: 32px;
+}
+#PriceJTP{
+
+    font-family: Advent Pro;
+    color: #CC3F2B;
+    font-weight: bolder;
+    font-size: 26px;
+    margin: 12px;
+}
+#AddJTPBtn{
+    width: 32px;
+}
+#PriceCBL{
+
+    font-family: Advent Pro;
+    color: #CC3F2B;
+    font-weight: bolder;
+    font-size: 26px;
+    margin: 12px;
+}
+#AddCBLBtn{
+    width: 32px;
+}
+.YouMayLike{
+    margin-top: 48px;
+    height: 400px;
+    display: flex;
+    flex-direction: column;
+}
+.MayLikeImg{
+    width: 220px;
+    height: 220px;
+    object-fit: cover;
+
+}
+.MayLikeImgs{
+    display: flex;
+    width: 100%;
+    height: 200px;
+    justify-content: space-around;
+}
+.MayLikeTitle{
+
+    letter-spacing: 2px;
+    font-family: Noto Sans TC;
+    font-weight: bolder;
+    font-size: 22px;
+    height: 60px;
+}
+
+@media (max-width: 850px){
+    .ByBigLeft { display: none;}
+    .ByContainer{
+        height: 1500px;
+    }
+    .ByBigRight {
+        align-items: center;
+        margin-right: 0;
+        height: 1300px;
+    }
+    .Indicator{
+        margin-top: 8px;
+        font-size: 18px;
+        letter-spacing: 6px;
+    }
+}
+
+@media (max-width: 550px){
+    .ByContainer{
+        height: 2800px;
+    }
+    .ByBigRight{
+        height: 2700px;
+        margin-top:-12px;
+        align-items: center;
+    }
+    .Indicator{
+        letter-spacing: 4px;
+        margin-top: 8px;
+        margin-bottom: 10px;
+    }
+    .ItemImg{
+        width: 300px;
+        height: 240px;
+        margin-top: 12px;
+    }
+    .Item{
+        height: 550px;
+        width: 320px;
+        flex-direction: column;
+        align-items: center;
+    }
+    .RMiddle{
+        text-align: center;
+    }
+    .ItemRight{
+        padding: 4px;
+        align-items: center;
+    }
+    .MayLikeImg{
+        margin-bottom: 24px
+    }
+    .MayLikeTitle{
+        margin-bottom: 48px;
+    }
+    .MayLikeImgs{
+        flex-direction: column;
+        height: 700px;
+    }
+}

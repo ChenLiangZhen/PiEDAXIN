@@ -1,0 +1,185 @@
+#POPUP{
+
+}
+
+#RLControlText{
+    font-family: Noto Sans TC;
+    width:60px;
+    text-align: right;
+    font-size: 14px;
+    font-weight: lighter;
+    border: none;
+    outline: none;
+    background-color: rgba(0,0,0,0);
+    position: absolute;
+    left: 280px;
+    top: 344px;
+    transition-duration: 200ms;
+}
+#RLControlText:hover{
+    color: #CC3F2B;
+}
+
+#PRegClosePanel{
+    position: absolute;
+    height: 16px;
+    width: 16px;
+    right: 12px;
+    top: 12px;
+}
+.HrReg{
+    width: 320px;
+    margin-bottom: 24px;
+    outline: none;
+    border: 1px solid black;
+}
+.PieBrandImg{
+    width: 300px;
+    height: 200px;
+    margin-bottom: -64px;
+    margin-top: -40px;
+}
+#PRegButton{
+
+    margin-left: 120px;
+    box-shadow: 0px 0px 8px rgba(0,0,0,0.4);
+    margin-top: 20px;
+    height:36px;
+    width: 108px;
+    outline: none;
+    border: none;
+    background-color: #000;
+    font-family: Raleway;
+    font-size: 16px;
+    font-weight:600;
+    color: #fff;
+    transition-duration: 200ms;
+}
+#PRegButton:hover{
+
+    margin-left: 120px;
+    box-shadow: 0px 0px 8px rgba(0,0,0,0.4);
+    margin-top: 20px;
+    height:36px;
+    width: 108px;
+    outline: none;
+    border: 1px solid black;
+    background-color: #fff;
+    font-family: Raleway;
+    font-size: 16px;
+    font-weight:800;
+    color: #000;
+}
+#PRegButton:active{
+
+    margin-left: 120px;
+    box-shadow: 0px 0px 8px rgba(0,0,0,0.4);
+    margin-top: 20px;
+    height:36px;
+    width: 108px;
+    outline: none;
+    border: 1px solid black;
+    background-color: #e03a24;
+    font-family: Raleway;
+    font-size: 16px;
+    font-weight:800;
+    color: #000;
+}
+
+.PGoogleSigninBox{
+
+}
+#BGMODAL{
+    width:104%;
+    height:110%;
+
+    background-color: rgba(0,0,0,0.5);
+    position: absolute;
+    top: 0px;
+    left: -12px;
+    display: none;
+    justifycontent: center;
+    align-items: center;
+    z-index: 100;
+}
+.ModalContentRegister{
+    box-shadow: 0px 0px 16px rgba(0,0,0,0.4);
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    -webkit-transform: translate(-50%, -50%);
+    width:400px;
+    height: 360px;
+    background-color: rgba(255,255,255,1);
+
+    border-radios: 2px;
+    text-align: center;
+    padding: 20px;
+}
+
+.PInputBox{
+    padding: 6px;
+}
+
+#PRegNameField{
+
+    background-color: rgba(255,255,255,0);
+    border:1px solid black;
+    outline: none;
+    width: 224px;
+    height: 28px;
+    text-align: center;
+    font-family: Raleway;
+    font-size: 14px;
+    font-weight: 700;
+
+}#PRegNameField::-webkit-input-placeholder{
+    font-family: Raleway;
+    font-size: 12px;
+    font-weight: 600;
+    text-align: center;
+}
+
+#PRegEmailField{
+    border:1px solid black;
+    outline: none;
+    background-color: rgba(255,255,255,0);
+    width: 224px;
+    height: 28px;
+    text-align: center;
+    font-family: Raleway;
+    font-size: 14px;
+    font-weight: 700;
+}
+#PRegEmailField::-webkit-input-placeholder{
+    font-family: Raleway;
+    font-size: 12px;
+    font-weight: 600;
+    text-align: center;
+}
+
+#PRegPasswordField{
+
+    border:1px solid black;
+    outline: none;
+    width: 224px;
+    height: 28px;
+    text-align: center;
+    font-family: Raleway;
+    background-color: rgba(255,255,255,0);
+    font-size: 14px;
+    font-weight: 700;
+
+}#PRegPasswordField::-webkit-input-placeholder{
+    font-family: Raleway;
+    font-size: 12px;
+    font-weight: 600;
+     text-align: center;
+}
+
+
+#GoogleOAuthIDBtn{
+    position: absolute;
+    left: 105px;
+    bottom: 92px;
+}

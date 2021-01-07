@@ -1,0 +1,169 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale =1" >
+    <meta name="google-signin-client_id" content="821998850526-vfh4lmcuf84j762qmih9fm54hgqv1g7t.apps.googleusercontent.com">
+    <script src="https://apis.google.com/js/platform.js" async defer></script>
+
+    <title>PiEDAXIN BUY !</title>
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+TC:wght@100;300;400;500;700;900&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Advent+Pro:wght@100;200;300;400;500;600;700&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="./CSS/PieMain.css">
+    <link rel="stylesheet" href="CSS/PieBuy.css">
+    <link rel="stylesheet" href="CSS/PieRegister.css">
+    <link rel="stylesheet" href="CSS/normalize.css">
+</head>
+<body>
+
+<div id="BGMODAL">
+
+    <div class="ModalContentRegister">
+
+        <img id="PRegClosePanel" src="IMG/close.png" alt="">
+        <img class="PieBrandImg" src="IMG/pregimgC.svg" alt="">
+        <hr class="HrReg">
+        <div class="PInputBox"><input type="text" id="PRegNameField" placeholder="Account Name" required></div>
+        <div class="PInputBox"><input type="text" id="PRegEmailField" placeholder="Email Address" required></div>
+        <div class="PInputBox"><input type="password" id="PRegPasswordField" placeholder="Password" required></div>
+        <button id="PRegButton">REGISTER</button>
+        <div id="GoogleOAuthIDBtn" class="g-signin2" data-onsuccess="onSignIn"></div>
+        <button id="RLControlText">Register</button>
+
+    </div>
+</div>
+
+<div class="ByContainer">
+
+    <div id="hamburger">
+        <div class="hbDiv">
+            <div id="hbBtnCake">各式糕餅</div>
+        </div>
+        <div class="hbDiv">
+            <div id="hbBtnSpecial">特惠活動</div>
+        </div>
+        <div class="hbDiv">
+            <div id="hbBtnHand">找伴手禮</div>
+        </div>
+        <div class="hbDiv">
+            <div id="hbBtnContact">聯絡我們</div>
+        </div>
+    </div>
+
+    <div class="PieHeader">
+        <div class="HWhiteBanner">
+            <img id="hamIcon" src="IMG/ham.svg"></img>
+            <img class="HBrandImg" src="IMG/PieBrand.png">
+            <div class="HBtnGroup">
+
+                <div class="HBtnAnyCake">各式糕餅</div>
+                <div class="HBtnSpecialEvents">特惠活動</div>
+                <div class="HBtnHandGift">找伴手禮</div>
+                <div class="HBtnContactUs">聯絡我們</div>
+                <img id="HBtnLogIn" src="IMG/userAvatarR2.svg">
+                <img id="HBtnShoppingCart" src="IMG/shopping-cartR.svg">
+            </div>
+        </div>
+    </div>
+
+    <div class="By">
+        
+        <div class="ByBigLeft">
+            <div class="LTextbox">&nbsp&nbsp商品&nbsp&nbsp</div>
+            <div class="LBigbox">
+                <div class="Link">生日蛋糕</div>
+                <div class="Link">精緻餅乾</div>
+                <div class="Link">歐式甜食</div>
+                <div class="Link">經典茶飲</div>
+            </div>
+            <div class="TEL">TEL:<br>02 2673-3810</div>
+        </div>
+        
+        <div class="ByBigRight">
+            <div class="Indicator">-&nbsp歐式甜食&nbsp-</div>
+
+            <div class="Item">
+                <img class="ItemImg" src="IMG/201911281419179.jpg" alt="">
+                <div class="ItemRight">
+                    <div class="RTop">
+                        <div class="ItemTitle">派大星</div>
+                        <div class="ItemTitleRightSec">
+                            <div id="LikeNumberPDX">2047</div>
+                            <img id="LikeBtnPDX" src="IMG/heartblank.svg" alt="">
+                        </div>
+                    </div>
+                    <div class="RMiddle">經過多道工法及千層的薄片處理，法式頻果派的酥
+                        脆外皮與柔嫩頻果Rosetta 2內餡，派大星絕對挽
+                        回您因為麥當勞而對頻果派失望的玻璃心。</div>
+                    <div class="RLow">
+                        <div id="PricePDX">$499</div>
+                        <img id="AddPDXBtn" src="IMG/add-to-basket.svg" alt="">
+                    </div>
+                </div>
+            </div>
+
+            <div class="Item">
+                <img class="ItemImg" src="IMG/www.samsweetie.com-pro0302-32.jpg" alt="">
+                <div class="ItemRight">
+                    <div class="RTop">
+                        <div class="ItemTitle">焦糖重乳酪派</div>
+                        <div class="ItemTitleRightSec">
+                            <div id="LikeNumberJTP">836</div>
+                            <img id="LikeBtnJTP" src="IMG/heartblank.svg" alt="">
+                        </div>
+                    </div>
+                    <div class="RMiddle">濃醇的紐西蘭進口重乳酪與脆皮焦糖裹層一同烘烤
+                        ，打造出獨特的雋永滋味以及難以忘懷的口感，一同尋找生活中的小確幸吧！</div>
+                    <div class="RLow">
+                        <div id="PriceJTP">$769</div>
+                        <img id="AddJTPBtn" src="IMG/add-to-basket.svg" alt="">
+                    </div>
+                </div>
+            </div>
+
+            <div class="Item">
+                <img class="ItemImg" src="IMG/herb-brulee-1.jpg" alt="">
+                <div class="ItemRight">
+                    <div class="RTop">
+                        <div class="ItemTitle">烤布蕾</div>
+                        <div class="ItemTitleRightSec">
+                            <div id="LikeNumberCBL">576</div>
+                            <img id="LikeBtnCBL" src="IMG/heartblank.svg" alt="">
+                        </div>
+                    </div>
+                    <div class="RMiddle">下午茶時光的輕食不二選擇！ 派大星的原創烤布蕾
+                        結合了法式烘培手藝以及獨門楓糖配方，給你輕鬆
+                        、無負擔的享受。</div>
+                    <div class="RLow">
+                        <div id="PriceCBL">$439</div>
+                        <img id="AddCBLBtn" src="IMG/add-to-basket.svg" alt="">
+                    </div>
+                </div>
+            </div>
+
+            <div class="YouMayLike">
+                <div class="MayLikeTitle">你可能會喜歡:</div>
+                <div class="MayLikeImgs">
+                    <img class="MayLikeImg" src="IMG/2a8cc148d17c0f9207d5278e3a86d103_1-max-w-1024.jpg" alt="">
+                    <img class="MayLikeImg" src="IMG/1466398801221.jpg" alt="">
+                    <img class="MayLikeImg" src="IMG/170609-6169-00-Ncgho.jpg" alt="">
+                </div>
+            </div>
+
+        </div>
+    </div>
+
+    <div class="PieFooter">
+        <div class="FPiedaxinBrandText">PiEDAXIN</div>
+        <div class="FPiedaxinSince">since 1920</div>
+    </div>
+</div>
+
+<script src = "JS/jquery-3.5.1.min.js"></script>
+<script src="JS/Pie.js"></script>
+</body>
+</html>
